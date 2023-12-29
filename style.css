@@ -1,0 +1,72 @@
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+
+  .left {
+    left: 0;
+    background-color: #5e0e0e;
+  }
+  
+  
+  .right {
+    right: 0;
+    background-color: rgb(47, 56, 48);
+  }
+  
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  
+  .centered1 {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    
+  }
+  body {
+    font-family: Arial, sans-serif;
+}
+#userText {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+div.settings{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 5px;
+}
+div.settings label{
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold ;
+  color: rgb(243, 18, 29);
+}
+header{
+  position: absolute;
+  margin-left: -230px;
+  top: -50%;
+  font-size: 35px;
+  font-weight: bold;
+
+}
+h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
